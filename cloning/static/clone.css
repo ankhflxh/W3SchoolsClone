@@ -1,16 +1,98 @@
-*{
-   
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    
-}
-body{
-    font-family: 'Roboto', sans-serif;
-}
-.header{
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
     width: 100%;
-    height: 80px;
-    display: block;
-}
+    z-index: 2;
+    background-color: white;
+  }
+  
+  .navleft {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navleft img {
+    width: 70px;
+  }
+  
+  .navleft ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .navleft li {
+    margin: 10px;
+  
+  }
+  
+  .navleft li a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+  }
+  
+  .navright {
+    display: flex;
+  }
+  
+  .navright i {
+    margin: 15px;
+    /* padding: 5px; */
+  }
+  
+  .navright button {
+    margin: 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: large;
+    padding: 0px 15px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pro {
+    color: white;
+    background-color: black;
+    box-shadow: none;
+  }
+  
+  .pro:hover {
+    background-color: grey;
+  }
+  
+  .get {
+    color: black;
+    background-color:#ffc0c7;
+  }
+  
+  .free {
+    color: black;
+    background-color:#fff4a4;
+  }
+  
+  .logIn {
+    color: white;
+    background-color: #05aa6d;
+  }
+  
+  .learn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #282a35;
+    color: white;
+    height: 80vh;
+  }
+  
