@@ -95,4 +95,59 @@
     color: white;
     height: 80vh;
   }
+
+  .blackBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .blackBox h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-weight: 900;
+    font-size: 50px;
+  }
+  
+  .blackBox p {
+    color:#ffc0c7;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 900;
+  }
+  
+  .blackBox h5 {
+    color: white;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  
+  .blackBox input {
+    width: 400px;
+    height: 40px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    align-items: center;
+    padding-left: 30px;
+  }
+  
+  .blackBox button {
+    background-color: #05aa6d;
+    color: white;
+    width: 80px;
+    border: none;
+    height: 40px;
+    margin-right: 80px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  
+  }
+
   
