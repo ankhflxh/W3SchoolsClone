@@ -257,5 +257,71 @@
     top: -5px;
     position: relative;
   }
+  
+  .css {
+    height: 60vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .css h1 {
+    font-size: 80px;
+  }
+  
+  .css p {
+    font-size: 12px;
+    margin-top: 30px;
+  }
+  
+  .cssExample {
+    height: 50vh;
+    width: 45%;
+    background-color: rgb(50, 50, 194);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .buttonA {
+    background-color: #05aa6d;
+    border: none;
+    width: 35%;
+    height: 35px;
+    border-radius: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .buttonB {
+    background-color: #282a35;
+    border: none;
+    width: 35%;
+    height: 35px;
+    border-radius: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .buttonC {
+    background-color: #ffc1c7;
+    border: none;
+    width: 35%;
+    height: 35px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+    margin-top: 20px;
+  }
 
   
