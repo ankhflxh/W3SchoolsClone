@@ -150,4 +150,112 @@
   
   }
 
+  /* ANIMATION STYLING */
+[data-aos] {
+    visibility: visible;
+  }
+  
+  [data-aos].animated {
+    visibility: hidden;
+  }
+  
+  .GREY {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+    border-radius: 10px;
+    background-color: #d9eee2;
+    top: -5px;
+    position: relative;
+  }
+  
+  .html {
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .html h1 {
+    font-size: 80px;
+  }
+  
+  .html p {
+    font-size: 12px;
+    margin-top: 30px;
+  }
+  
+  .doctype {
+    height: 55vh;
+    width: 40%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button1 {
+    background-color: green;
+    border: none;
+    width: 37%;
+    border-radius: 30px;
+    padding: 10px 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .button2 {
+    background-color: burlywood;
+    border: none;
+    width: 37%;
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .button3 {
+    background-color: #282a35;
+    border: none;
+    width: 37%;
+    border-radius: 30px;
+    padding: 10px 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .button4 {
+    background-color: pink;
+    border: none;
+    width: 37%;
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .yellow {
+    background-color: #fff4a4;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: -5px;
+    position: relative;
+  }
+
   
